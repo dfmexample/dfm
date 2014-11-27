@@ -1,4 +1,5 @@
 image: perlbase
 script:
     - locale -a
+    - ls -al
     - prove -l
